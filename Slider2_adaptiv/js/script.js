@@ -56,4 +56,4 @@ document.querySelector('.slider-next').addEventListener('click', function () {
 //функция расчитывает смешение слайда
 function rollSlider() {
    sliderLine.style.transform = 'translate(-' + count * width + 'px)'; //смещение высчитывается по формуле [смещение = ширина сдайдера * на номер текушего слайда]
-}
+};
