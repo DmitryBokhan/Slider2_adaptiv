@@ -1,0 +1,29 @@
+.container {
+}
+.slider {
+   width: 245px;
+   height: 99px;
+   border: 2px solid black;
+   margin: 30px auto;
+   overflow: hidden;
+}
+.slider-line {
+   height: 99px;
+   width: 1715px;
+   // background-color: orange;
+   display: flex;
+   position: relative;
+   left: 0;
+   transition: all ease 1s;
+}
+
+.slider-prev,
+.slider-next {
+   background: rgb(219, 219, 219);
+   width: 100px;
+   height: 40px;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   font-size: 22px;
+   border-radius: 4px;
+   margin: 20px;
+}
